@@ -44,7 +44,7 @@ This dataset is **imbalanced**, with only ~0.13% frauds. But a careful look reve
 
 ### 🔢 Transaction Types Distribution
 
-<p align="center"><img src="./assets/transaction_types.png" width="400"></p>
+<p align="center"><img src="https://github.com/sparshb4tra/Fraud_Detection/blob/main/plots/Transaction%20Types.png" width="400"></p>
 
 > Most transactions are `CASH_OUT`, `PAYMENT`, and `CASH_IN`.
 
@@ -52,7 +52,7 @@ This dataset is **imbalanced**, with only ~0.13% frauds. But a careful look reve
 
 ### 🚩 Fraud Rate by Transaction Type
 
-<p align="center"><img src="./assets/fraud_rate_by_type.png" width="400"></p>
+<p align="center"><img src="https://github.com/sparshb4tra/Fraud_Detection/blob/main/plots/Fraud%20Rate%20by%20Type.png" width="400"></p>
 
 > 🔥 **Only `TRANSFER` and `CASH_OUT` show fraud**. This insight powers our feature filtering and Streamlit form.
 
@@ -60,15 +60,15 @@ This dataset is **imbalanced**, with only ~0.13% frauds. But a careful look reve
 
 ### 💰 Amount Distribution (Log Scale)
 
-<p align="center"><img src="./assets/amount_distribution.png" width="400"></p>
+<p align="center"><img src="https://github.com/sparshb4tra/Fraud_Detection/blob/main/plots/Transaction%20Amount%20Distribution%20(log%20scale).png" width="400"></p>
 
 > The raw `amount` is skewed, so we log-transformed it using `np.log1p` before modeling.
 
 ---
 
-### 📦 Boxplot: Fraud vs Amount (Under ₹5000)
+### 📦 Boxplot: Fraud vs Amount (Under ₹50000)
 
-<p align="center"><img src="./assets/amount_vs_fraud_boxplot.png" width="400"></p>
+<p align="center"><img src="https://github.com/sparshb4tra/Fraud_Detection/blob/main/plots/Amount%20vs%20ifFraud%20(Filtered%20under%2050k).png" width="400"></p>
 
 > Even small transactions can be fraudulent — often overlooked.
 
@@ -76,7 +76,7 @@ This dataset is **imbalanced**, with only ~0.13% frauds. But a careful look reve
 
 ### 🕒 Fraud Timing Pattern
 
-<p align="center"><img src="./assets/fraud_over_time.png" width="450"></p>
+<p align="center"><img src="https://github.com/sparshb4tra/Fraud_Detection/blob/main/plots/Frauds%20Over%20Time.png" width="450"></p>
 
 > Fraud spikes at specific hours. Attackers may exploit system lulls.
 
@@ -84,7 +84,7 @@ This dataset is **imbalanced**, with only ~0.13% frauds. But a careful look reve
 
 ### 🔍 Breakdown by Transaction Type
 
-<p align="center"><img src="./assets/fraud_distribution_by_type.png" width="450"></p>
+<p align="center"><img src="https://github.com/sparshb4tra/Fraud_Detection/blob/main/plots/Fraud%20Distribution%20in%20Transfer%20%26%20Cash_Out.png" width="450"></p>
 
 > Most frauds happen in `TRANSFER`, followed by `CASH_OUT`. Others are consistently safe.
 
@@ -92,7 +92,7 @@ This dataset is **imbalanced**, with only ~0.13% frauds. But a careful look reve
 
 ### 🧊 Correlation Matrix
 
-<p align="center"><img src="./assets/correlation_matrix.png" width="450"></p>
+<p align="center"><img src="https://github.com/sparshb4tra/Fraud_Detection/blob/main/plots/Correlation%20Matrix.png" width="450"></p>
 
 > High positive correlation between:
 - `oldbalanceOrg` ↔ `newbalanceOrig`
