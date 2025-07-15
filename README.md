@@ -140,11 +140,6 @@ The app provides:
 * Fields to enter a transaction manually
 * Real-time fraud prediction using the trained pipeline
 
-### App Preview
-
-| Input Form                     | Output Feedback                           |
-| ------------------------------ | ----------------------------------------- |
-| ![UI](./assets/ui-preview.png) | ![Output](./assets/prediction-result.png) |
 
 ---
 
