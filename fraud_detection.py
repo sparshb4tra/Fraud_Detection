@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("fraud_detect_pipeline.pkl")
+model = joblib.load("fraud_pipeline.pkl")
 
 
 st.title("Fraud Detection Predictor App")
