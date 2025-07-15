@@ -1,8 +1,11 @@
 import streamlit as st
 import pandas as pd
-
 import joblib
-model = joblib.load("fraud_detection_pipeline.pkl")  
+import urllib.request
+
+url = "https://huggingface.co/datasets/sparshb4tra/fraud-detection-data/resolve/main/fraud_detection_pipeline.pkl"
+model = joblib.load(urllib.request.urlopen(url))
+
 
 st.title("Fraud Detection Predictor App")
 
