@@ -14,6 +14,14 @@ This project is a full pipeline from raw Kaggle dataset → exploratory data ana
 
 ---
 
+
+<p align="center">
+  <img src="https://github.com/sparshb4tra/Fraud_Detection/blob/main/image.png" width="1000" />
+</p>
+
+---
+
+
 ## 📦 Dataset Used
 
 **Fraud Detection Dataset by Aman Ali Siddiqui**  
